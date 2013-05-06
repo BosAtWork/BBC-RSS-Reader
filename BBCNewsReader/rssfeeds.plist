@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Top Stories</string>
+		<key>url</key>
+		<string>http://feeds.bbci.co.uk/news/rss.xml</string>
+		<key>active</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>World</string>
+		<key>url</key>
+		<string>http://feeds.bbci.co.uk/news/world/rss.xml</string>
+		<key>active</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>UK</string>
+		<key>url</key>
+		<string>http://feeds.bbci.co.uk/news/uk/rss.xml</string>
+		<key>active</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Business</string>
+		<key>url</key>
+		<string>http://feeds.bbci.co.uk/news/business/rss.xml</string>
+		<key>active</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Politics</string>
+		<key>url</key>
+		<string>http://feeds.bbci.co.uk/news/politics/rss.xml</string>
+		<key>active</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Health</string>
+		<key>url</key>
+		<string>http://feeds.bbci.co.uk/news/health/rss.xml</string>
+		<key>active</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Education &amp; Family</string>
+		<key>url</key>
+		<string>http://feeds.bbci.co.uk/news/education/rss.xml</string>
+		<key>active</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Science &amp; Environment</string>
+		<key>url</key>
+		<string>http://feeds.bbci.co.uk/news/science_and_environment/rss.xml</string>
+		<key>active</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Technology</string>
+		<key>url</key>
+		<string>http://feeds.bbci.co.uk/news/technology/rss.xml</string>
+		<key>active</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Entertainment &amp; Arts</string>
+		<key>url</key>
+		<string>http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml</string>
+		<key>active</key>
+		<false/>
+	</dict>
+</array>
+</plist>

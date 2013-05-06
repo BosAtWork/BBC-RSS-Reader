@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="11G63b" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Image" representedClassName="Image" syncable="YES">
+        <attribute name="height" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="src" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="width" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="rssItem" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="RSSItem" inverseName="images" inverseEntity="RSSItem" syncable="YES"/>
+    </entity>
+    <entity name="RSSIdentifier" representedClassName="RSSIdentifier" syncable="YES">
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="rssItem" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="RSSItem" inverseName="rssIdentifiers" inverseEntity="RSSItem" syncable="YES"/>
+    </entity>
+    <entity name="RSSItem" representedClassName="RSSItem" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="guid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Image" inverseName="rssItem" inverseEntity="Image" syncable="YES"/>
+        <relationship name="rssIdentifiers" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="RSSIdentifier" inverseName="rssItem" inverseEntity="RSSIdentifier" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Image" positionX="340" positionY="225" width="128" height="105"/>
+        <element name="RSSItem" positionX="142" positionY="90" width="128" height="150"/>
+        <element name="RSSIdentifier" positionX="160" positionY="192" width="128" height="75"/>
+    </elements>
+</model>
